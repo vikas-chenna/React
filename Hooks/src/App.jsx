@@ -28,7 +28,7 @@ function App() {
   //   setCount(count + 1)
   // }
 
-  //here we are passing callback fun to executed multiple times
+  //here we are passing callback fun to executed multiple times   
   function addValue(){
     setCount(prevCounter => prevCounter + 1)
     setCount(prevCounter => prevCounter + 1)
